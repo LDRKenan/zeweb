@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zeuph - Premium Education Experience</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loader">
+    <div class="loader-content">
+      <div class="loader-spinner"></div>
+      <h1>Zeuph</h1>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <span>Zeuph</span>
+      </div>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Redefining Education</h1>
+      <p class="hero-subtitle">Experience learning like never before</p>
+      <a href="#features" class="cta-btn">Explore</a>
+    </div>
+    <div class="hero-background" id="particles-js"></div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2 class="section-title">AI-Powered Education Platform</h2>
+      <div class="features-grid">
+        <!-- AI Personalization -->
+        <div class="feature-card" data-feature="ai">
+          <i class="fas fa-brain"></i>
+          <h3>AI-Powered Personalization</h3>
+          <p>Adaptive learning system that analyzes student's level and provides personalized content recommendations</p>
+        </div>
+
+        <!-- Gamification -->
+        <div class="feature-card" data-feature="gamification">
+          <i class="fas fa-trophy"></i>
+          <h3>Gamification System</h3>
+          <p>Badges, level progression and social comparison to motivate learning</p>
+        </div>
+
+        <!-- Analytics -->
+        <div class="feature-card" data-feature="analytics">
+          <i class="fas fa-chart-pie"></i>
+          <h3>Advanced Analytics</h3>
+          <p>Detailed dashboards for students, teachers and parents to track progress</p>
+        </div>
+
+        <!-- School Integration -->
+        <div class="feature-card" data-feature="integration">
+          <i class="fas fa-school"></i>
+          <h3>School Integration</h3>
+          <p>Admin tools for institutions to manage content and track students</p>
+        </div>
+
+        <!-- E-Library -->
+        <div class="feature-card" data-feature="library">
+          <i class="fas fa-book-open"></i>
+          <h3>Digital Library</h3>
+          <p>Thousands of textbooks and resources with advanced filtering</p>
+        </div>
+
+        <!-- Community -->
+        <div class="feature-card" data-feature="community">
+          <i class="fas fa-users"></i>
+          <h3>Learning Community</h3>
+          <p>Study groups, forums and messaging for collaborative learning</p>
+        </div>
+
+        <!-- Content System -->
+        <div class="feature-card" data-feature="content">
+          <i class="fas fa-upload"></i>
+          <h3>Content System</h3>
+          <p>Upload and share educational materials between teachers and students</p>
+        </div>
+
+        <!-- Security -->
+        <div class="feature-card" data-feature="security">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Security & Privacy</h3>
+          <p>GDPR-compliant data protection with encryption</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-email">
+        <p>Email us at: <a href="mailto:office@zeuph.com">office@zeuph.com</a></p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit" class="cta-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2 class="section-title">What People Say About Zeuph</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p>"Zeuph revolutionized our education system. The AI personalization is unmatched!"</p>
+          <div class="testimonial-author">
+            <h4>Dr. Sarah John</h4>
+            <p>Education Director, Tech University</p>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>"Our students' performance improved by 40% after implementing Zeuph."</p>
+          <div class="testimonial-author">
+            <h4>Michael Chen</h4>
+            <p>Principal, Future High School</p>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>"As a parent, I've never seen my child so engaged with learning before."</p>
+          <div class="testimonial-author">
+            <h4>Emma Rodriguez</h4>
+            <p>Parent</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Zeuph. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</body>
+</html>
